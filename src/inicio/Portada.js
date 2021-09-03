@@ -13,7 +13,7 @@ function Portada() {
       <Col className=" text-center" sm={4}>
         <Image src={perfil1} className= " my-5 p-3 border border-info" fluid roundedCircle/>
         <h3 className="display-15 p-3 bg-info">RAÚL JIMÉNEZ ROJAS</h3>
-        <a href="https://www.google.com/" className= "p-3 text-info">rauljimenezemp@gmail.com</a>
+        <h6 className= "my-3 text-info">rauljimenezemp@gmail.com</h6>
         <Col className= " my-3 d-flex">
          <div className= "justify-content-center mx-auto display:block">
             <a title="Git" href="https://github.com/rauljimenezemp"><img src={git} className= "m-3" alt="link" height="65" width="65"/></a>

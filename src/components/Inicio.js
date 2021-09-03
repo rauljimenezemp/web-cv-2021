@@ -5,6 +5,7 @@ import Impacto from '../inicio/Impacto';
 import Cardsexp from '../inicio/Cardsexp';
 import Cardsfor from '../inicio/Cardsfor';
 import Cardspro from '../inicio/Cardspro';
+import Logos from '../inicio/Logos';
 
 
 function Inicio() {
@@ -13,6 +14,7 @@ function Inicio() {
       <NavigationBar />
       <Portada />
       <Impacto />
+      <Logos />
       <Cardsexp />
       <Cardsfor />
       <Cardspro />
