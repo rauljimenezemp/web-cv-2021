@@ -17,7 +17,7 @@ function Cardsfor() {
       <Row className="justify-content-center" xs={1} sm={2} md={3} >
         <Col className="m-3">
           <Card style={{ height:'30.5rem'}} className="text-center">
-            <Card.Img variant="top" src={devf} fluid/>
+            <Card.Img variant="top" src={devf} />
             <Card.Body>
               <Card.Title>BOOT CAMP DEV.F</Card.Title>
               <Card.Text>
@@ -34,7 +34,7 @@ function Cardsfor() {
         </Col>
         <Col className="m-3">
           <Card className="text-center">
-            <Card.Img variant="top" src={adwords} fluid/>
+            <Card.Img variant="top" src={adwords} />
             <Card.Body>
               <Card.Title>MERCATITLÁN</Card.Title>
               <Card.Text>
@@ -51,7 +51,7 @@ function Cardsfor() {
         </Col>
         <Col className="m-3">
           <Card className="text-center">
-            <Card.Img variant="top" src={liceo} fluid/>
+            <Card.Img variant="top" src={liceo} />
             <Card.Body>
               <Card.Title>LICEO UNIVERSIDAD PEDRO DE GANTE</Card.Title>
               <Card.Text>

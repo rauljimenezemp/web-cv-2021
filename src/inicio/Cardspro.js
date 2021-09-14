@@ -18,7 +18,7 @@ function Cards() {
       <Row className="justify-content-center" xs={1} sm={2} md={4} >
         <Col  className="m-3">
           <Card style={{ height:'25rem'}} className="text-center">
-            <Card.Img variant="top" src={texemp} fluid/>
+            <Card.Img variant="top" src={texemp} />
             <Card.Body>
               <Card.Title>TEXCOCO EMPRENDEDORES</Card.Title>
               <Card.Subtitle>
@@ -34,7 +34,7 @@ function Cards() {
         </Col>
         <Col className="m-3">
           <Card style={{ height:'25rem'}} className="text-center">
-            <Card.Img variant="top" src={soytex} fluid/>
+            <Card.Img variant="top" src={soytex} />
             <Card.Body>
               <Card.Title>SOY TEXCOCO</Card.Title>
               <Card.Subtitle>
@@ -50,7 +50,7 @@ function Cards() {
         </Col>
         <Col className="m-3">
           <Card style={{ height:'25rem'}} className="text-center">
-            <Card.Img variant="top" src={negociostex} fluid/>
+            <Card.Img variant="top" src={negociostex} />
             <Card.Body>
               <Card.Title>NEGOCIOS TEXCOCO</Card.Title>
               <Card.Subtitle>
@@ -66,7 +66,7 @@ function Cards() {
         </Col>
         <Col className="m-3">
           <Card style={{ height:'25rem'}} className="text-center">
-            <Card.Img variant="top" src={extrem} fluid/>
+            <Card.Img variant="top" src={extrem} />
             <Card.Body>
               <Card.Title>VIVEXTREM</Card.Title>
               <Card.Subtitle>
@@ -82,7 +82,7 @@ function Cards() {
         </Col>
         <Col className="m-3">
           <Card style={{ height:'25rem'}} className="text-center">
-            <Card.Img variant="top" src={fiesta} fluid/>
+            <Card.Img variant="top" src={fiesta} />
             <Card.Body>
               <Card.Title>EXPO FIESTA KIDS</Card.Title>
               <Card.Subtitle>
@@ -98,7 +98,7 @@ function Cards() {
         </Col>
         <Col className="m-3">
           <Card style={{ height:'25rem'}} className="text-center">
-            <Card.Img variant="top" src={diverti} fluid/>
+            <Card.Img variant="top" src={diverti} />
             <Card.Body>
               <Card.Title>DIVERTINFLABLES:</Card.Title>
               <Card.Subtitle>

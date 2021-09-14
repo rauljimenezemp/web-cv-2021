@@ -30,6 +30,8 @@ function Form1() {
       mensaje: entradaMensaje.current.value,
       createdAt: firestoreDB1.getCurrentTimestamp()
     }
+    console.log(inputValues)
+
     await firestoreDB1.form1.add(inputValues)
     setLoading(false)
     setMessage('Mensaje enviado!')

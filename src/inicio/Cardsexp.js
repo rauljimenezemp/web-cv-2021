@@ -17,7 +17,7 @@ function Cardsexp() {
       <Row className="justify-content-center" xs={1} sm={2} md={3} >
         <Col className="m-3">
           <Card style={{ height:'30rem'}} className="text-center">
-            <Card.Img variant="top" src={actemp} fluid/>
+            <Card.Img variant="top" src={actemp} />
             <Card.Body>
               <Card.Title>ACTÍVATE Y EMPRENDE</Card.Title>
               <Card.Text>
@@ -34,7 +34,7 @@ function Cardsexp() {
         </Col>
         <Col className="m-3">
           <Card style={{ height:'30rem'}} className="text-center">
-            <Card.Img variant="top" src={informatex} fluid/>
+            <Card.Img variant="top" src={informatex} />
             <Card.Body>
               <Card.Title>INFORMA TEX</Card.Title>
               <Card.Text>
@@ -51,7 +51,7 @@ function Cardsexp() {
         </Col>
         <Col className="m-3">
           <Card style={{ height:'30rem'}}  className="text-center">
-            <Card.Img variant="top" src={empublizid} fluid/>
+            <Card.Img variant="top" src={empublizid} />
             <Card.Body>
               <Card.Title>EMPUBLIZID</Card.Title>
               <Card.Text>
@@ -68,7 +68,7 @@ function Cardsexp() {
         </Col>
         <Col className="m-3">
           <Card style={{ height:'30rem'}}  className="text-center">
-            <Card.Img variant="top" src={ruliz} fluid/>
+            <Card.Img variant="top" src={ruliz} />
             <Card.Body>
               <Card.Title>RULIZ INFLABLES</Card.Title>
               <Card.Text>
